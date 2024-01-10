@@ -8,11 +8,13 @@ Use directly in: [chat.openai.com](https://chat.openai.com)
 
 The list is regularly updated, so you can keep track of new prompts by following this repository.
 
-> **TIPS:** As there is a limit to the number of words that can be used in ChatGPT, you can input your text multiple times using the prompt "Read this [PARAPGRAPH]:" and then run your final prompt "Considering the above text...".
+## Prompt splitter
 
-You can also use prompts splitter: [chatgpt-prompt-splitter.jjdiaz.dev](https://chatgpt-prompt-splitter.jjdiaz.dev/)
+As there is a limit to the number of words that can be used in ChatGPT, you can input your text multiple times using the prompt "Read this [PARAPGRAPH]:" and then run your final prompt "Considering the above text...".
 
-## BRAINSTORMIN
+Another way: you can also use prompts splitter: [chatgpt-prompt-splitter.jjdiaz.dev](https://chatgpt-prompt-splitter.jjdiaz.dev/)
+
+## BRAINSTORMING
 
 ```
 Find a research topic for a PhD in the area of [TOPIC]
@@ -183,6 +185,14 @@ Can you suggest 3 directions for future research on this topic: [PARAGRAPH]]?
 ```
 
 ## IMPROVING LANGUAGE
+````
+In the context of [RESEARCH DOMAIN], please improve the writing of the paragraph delimited by triple backticks. Please use layman language without too many jargons or complicated sentences. Please use academic language and avoid informal terms like 'scholarly void', 'scholarly', or 'tricky puzzle'
+```
+[PARAGRAPH]
+```
+````
+
+> **TIP**: Chatgpt will highlight the revision to this paragraph.
 
 ```
 Rewrite this paragraph in an academic language: [PARAGRAPH]
@@ -262,7 +272,7 @@ Write a counterargument to the following claim: [PARAGRAPH]
 
 ```
 Rewrite this in an academic voice: [PARAGRAPH]
-``` 
+```
 
 ```
 Expand these notes: [PARAGRAPH]
